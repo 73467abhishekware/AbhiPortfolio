@@ -8,7 +8,8 @@ import Me from './Me';
 import ProjectsSection from './ProjectsSection';
 import Categories from './Categories';
 import JavaProject from './JavaProject';
-
+import ContactMe from './ContactMe';
+import Footer from './Footer';
 
 const customRounter = createBrowserRouter([
     {
@@ -42,7 +43,15 @@ const customRounter = createBrowserRouter([
             {
                 path: '/java',
                 element: <JavaProject />
-            }
+            },
+            {
+                path: '/contactMe',
+                element: <ContactMe />
+            },
+            {
+                path: '/footer',
+                element: <Footer />
+            },
         ]
     }
 ]);

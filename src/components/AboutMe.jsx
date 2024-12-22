@@ -45,7 +45,7 @@ const AboutMe = () => {
               Connect on LinkedIn
             </a>
             <div
-                className="px-8 py-3 border-[2px] text-black border-zinc-300 font-lighter rounded-full cursor-pointer"
+                className="px-8 py-3 bg-zinc-300 hover:bg-blue-200 border-[2px] text-black border-zinc-300 font-lighter rounded-full cursor-pointer"
                 onClick={handleExploreClick}
               >
                 Explore me

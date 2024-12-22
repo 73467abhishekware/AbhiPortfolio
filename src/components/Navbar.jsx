@@ -74,7 +74,7 @@ const Navbar = () => {
             </li>
             <li>
               <Link
-                to="/contact-me"  
+                to="/contactMe"  
                 className="text-zinc-200 font-medium hover:text-orange-500 transition duration-300"
               >
                 Contact Me

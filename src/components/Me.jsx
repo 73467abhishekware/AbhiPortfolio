@@ -26,7 +26,7 @@ const Me = () => {
             </ul>
             <div className="read flex items-center gap-5 mt-4">
               <a
-                href="https://www.linkedin.com/in/abhishekware-8a6b89139"
+                href="www.linkedin.com/in/abhishek-ware-8a6b89139"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-block bg-blue-500 text-white font-medium py-3 px-6 rounded-lg shadow-lg hover:bg-blue-600"
