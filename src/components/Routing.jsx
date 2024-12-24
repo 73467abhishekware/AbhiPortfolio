@@ -10,12 +10,17 @@ import Categories from './Categories';
 import JavaProject from './JavaProject';
 import ContactMe from './ContactMe';
 import Footer from './Footer';
+import ServicesPage from './ServicesPage';
 
 const customRounter = createBrowserRouter([
     {
         path: '/',
         element: <App />,
         children: [
+            {
+                index: true, // Default route
+                element: <Home />
+            },
             {
                 path: '/home',
                 element: <Home />
@@ -52,7 +57,11 @@ const customRounter = createBrowserRouter([
                 path: '/footer',
                 element: <Footer />
             },
-        ]
+            {
+                path: '/servicepage',
+                element: <ServicesPage />
+            },
+        ] 
     }
 ]);
 
